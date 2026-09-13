@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sherwin Bonavente — Graphic Designer</title>
+<meta name="description" content="Sherwin Bonavente is a Pasig City-based graphic designer working across branding, packaging, apparel, and print — design built to survive production, not just look good in a mockup.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav__mark">SB</a>
+  <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+  <ul class="nav__links" id="navLinks">
+    <li><a href="#work">Work</a></li>
+    <li><a href="#capabilities">Capabilities</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact" class="nav__cta">Start a project</a></li>
+  </ul>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero__inner">
+    <p class="hero__eyebrow">Graphic Designer — Pasig City, Philippines</p>
+    <h1 class="hero__headline">
+      I design brands<br>
+      that still work <em>after</em><br>
+      they leave the screen.
+    </h1>
+    <p class="hero__sub">
+      Branding, packaging, and apparel design that holds up once it hits the press, the seam, or the production line — not just the mockup. Currently Graphic Design Manager at Kite and Crest.
+    </p>
+    <div class="hero__actions">
+      <a href="#work" class="btn btn--primary">See selected work</a>
+      <a href="#contact" class="btn btn--ghost">Start a project</a>
+    </div>
+  </div>
+  <div class="hero__scroll" aria-hidden="true">
+    <span></span>
+    <p>Scroll</p>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ SELECTED WORK ============ -->
+  <section class="work" id="work">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <p class="section-head__note">Six categories, one production discipline.</p>
+    </div>
+
+    <div class="gallery" id="gallery">
+
+      <article class="project" data-project="branding">
+        <div class="project__frame">
+          <img src="images/branding.jpg" alt="Talents Anywhere brand identity board, part of the Anytime staffing brand family" loading="lazy">
+        </div>
+        <div class="project__meta">
+          <h3>The Anytime Brand Family</h3>
+          <p>Four related recruitment brands, each with its own identity</p>
+          <span class="project__tag">Branding — Identity Systems</span>
+        </div>
+      </article>
+
+      <article class="project" data-project="packaging">
+        <div class="project__frame">
+          <img src="images/packaging.jpg" alt="Satin Fresh deodorant wipes packaging, five scent variants" loading="lazy">
+        </div>
+        <div class="project__meta">
+          <h3>Satin Fresh — Elev Hygiene</h3>
+          <p>Packaging and campaign system for a new wipes line</p>
+          <span class="project__tag">Packaging — Product &amp; Campaign</span>
+        </div>
+      </article>
+
+      <article class="project" data-project="shirts">
+        <div class="project__frame">
+          <img src="images/shirts.jpg" alt="Fully sublimated dart team jerseys worn by players" loading="lazy">
+        </div>
+        <div class="project__meta">
+          <h3>Corporate &amp; Sports Apparel</h3>
+          <p>From two-color polos to full-sublimation team jerseys</p>
+          <span class="project__tag">Apparel — Production Design</span>
+        </div>
+      </article>
+
+      <article class="project" data-project="logos">
+        <div class="project__frame">
+          <img src="images/logos.jpg" alt="Grid of client logos rebuilt as clean vector files" loading="lazy">
+        </div>
+        <div class="project__meta">
+          <h3>Low-Res to Print-Ready</h3>
+          <p>Rebuilding legacy logos as clean, scalable vector art</p>
+          <span class="project__tag">Logo — Vector Reconstruction</span>
+        </div>
+      </article>
+
+      <article class="project" data-project="email">
+        <div class="project__frame">
+          <img src="images/email.jpg" alt="Extreme MX Showdown email campaign design" loading="lazy">
+        </div>
+        <div class="project__meta">
+          <h3>Extreme MX Showdown &amp; MusioLab</h3>
+          <p>Two email campaigns, two very different audiences</p>
+          <span class="project__tag">Email — Campaign Design</span>
+        </div>
+      </article>
+
+      <article class="project" data-project="social">
+        <div class="project__frame">
+          <img src="images/social.jpg" alt="Grid of DigiWorx social media post designs" loading="lazy">
+        </div>
+        <div class="project__meta">
+          <h3>DigiWorx Social Content</h3>
+          <p>A flexible template system for a running content calendar</p>
+          <span class="project__tag">Social — Digital Marketing</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ CASE STUDY OVERLAY ============ -->
+  <div class="case" id="case" aria-hidden="true">
+    <button class="case__close" id="caseClose" aria-label="Close case study">&times;</button>
+    <div class="case__inner" id="caseInner"></div>
+  </div>
+
+  <!-- ============ CAPABILITIES ============ -->
+  <section class="process" id="capabilities">
+    <div class="section-head">
+      <h2>Design meets production</h2>
+      <p class="section-head__note">The process behind every logo rebuild — applied everywhere else too.</p>
+    </div>
+    <ol class="process__list">
+      <li>
+        <h3>Assess</h3>
+        <p>Start by evaluating what exists — a low-res logo, an old brand mark, a rough brief — and identify exactly what needs rebuilding or clarifying.</p>
+      </li>
+      <li>
+        <h3>Rebuild</h3>
+        <p>Redraw or design in vector — Illustrator, CorelDraw — so the output scales cleanly from a business card to a building directory.</p>
+      </li>
+      <li>
+        <h3>Render</h3>
+        <p>For packaging and product work, build out 3D mockups and product shots in Maya, SketchUp, and KeyShot before anything goes to print.</p>
+      </li>
+      <li>
+        <h3>Deliver</h3>
+        <p>Hand off production-ready files with the technical accuracy of a shop drawing — checked against real materials and print methods, not just screen color.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="about__portrait duotone--moss" aria-hidden="true">
+      <!-- SWAP: add a real portrait photo here -->
+    </div>
+    <div class="about__copy">
+      <h2>About</h2>
+      <p>
+        I'm Sherwin Bonavente, a graphic designer based in Pasig City, currently Graphic Design Manager at Kite and Crest, where I produce shirt designs across a range of styles and materials with brand identity and audience in mind.
+      </p>
+      <p>
+        My background sits a little outside the usual graphic design lane — alongside branding, packaging, and print, I work in 3D modeling and rendering (Autodesk Maya, SketchUp, KeyShot) and technical shop drawing. That combination means I don't just hand off a pretty file — I think about how a design actually holds up once it's printed, sewn, or rendered as a real product.
+      </p>
+      <p>
+        TESDA NC3-certified in Visual Graphic Design, with Adobe Photoshop and Illustrator Expert certifications, and a Lean Six Sigma White Belt for the process-and-quality side of the work.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ PROOF ============ -->
+  <section class="proof" id="proof">
+    <blockquote class="proof__quote">
+      <!-- SWAP: add a real client testimonial here once you have one to feature -->
+      <p>“Add a short quote from a past client or manager here — even a couple of sentences from an email or performance review works well.”</p>
+      <cite>— Client or manager name, role, company</cite>
+    </blockquote>
+    <ul class="proof__logos">
+      <li>Kite and Crest</li>
+      <li>Personiv Philippines</li>
+      <li>DigiWorx</li>
+      <li>Elev Hygiene</li>
+    </ul>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <h2>Have a design problem<br>worth solving?</h2>
+    <a href="mailto:bonaventesherwin@gmail.com" class="contact__email">bonaventesherwin@gmail.com</a>
+    <p class="contact__note">+63 916 622 6692 · Pasig City, Philippines</p>
+    <a href="Sherwin-Bonavente-Resume.pdf" class="contact__resume" download>Download résumé (PDF)</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Sherwin Bonavente</p>
+  <ul class="footer__socials">
+    <li><a href="mailto:bonaventesherwin@gmail.com">Email</a></li>
+    <li><a href="skype:live:bonaventesherwin?chat">Skype</a></li>
+    <!-- SWAP: add real Instagram / Behance / LinkedIn links if you have them -->
+  </ul>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
